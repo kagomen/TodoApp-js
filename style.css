@@ -1,0 +1,97 @@
+@charset "utf-8";
+
+*{
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-family: "Arial", "BIZ UDゴシック", "BIZ UDGothic", sans-serif;
+}
+
+body{
+  background: #aaa;
+  color: #222;
+}
+
+button{
+  font-size: 13px;
+  padding: 4px 8px;
+  user-select: none;
+  border: none;
+  background: #aaa;
+  color: #222;
+  border-left: #fff 2px solid;
+  border-top: #fff 2px solid;
+  border-right: #666 2px solid;
+  border-bottom: #666 2px solid;
+  font-weight: bold;
+}
+
+button:active{
+  border-right: #fff 2px solid;
+  border-bottom: #fff 2px solid;
+  border-top: #666 2px solid;
+  border-left: #666 2px solid;
+}
+
+main{
+  width: 400px;
+  margin: 40px auto;
+  padding: 24px;
+  border-left: #fff 2px solid;
+  border-top: #fff 2px solid;
+  border-right: #666 2px solid;
+  border-bottom: #666 2px solid;
+}
+
+h1{
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 8px;
+  margin-bottom: 16px;
+}
+
+ul{
+  list-style: none;
+}
+
+li{
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-bottom: 16px;
+}
+
+li input{
+  margin-right: 8px;
+}
+
+li label{
+  line-height: 1.6;
+  margin-right: 8px;
+  position: relative;
+}
+
+li input:checked + span{
+  color: #888;
+  text-decoration: line-through;
+}
+
+form {
+  display: flex;
+  gap: 8px;
+}
+
+form input {
+  flex: 1;
+  padding: 4px;
+  border: none;
+  border-top: #666 2px solid;
+  border-left: #666 2px solid;
+}
+
+form input:focus {
+  outline: none;
+}
+
