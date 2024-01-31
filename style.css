@@ -35,7 +35,7 @@ button:active{
 
 main{
   width: 400px;
-  margin: 40px auto;
+  margin: 32px auto;
   padding: 24px;
   border-left: #fff 2px solid;
   border-top: #fff 2px solid;
@@ -86,6 +86,7 @@ form {
 form input {
   flex: 1;
   padding: 4px;
+  border-radius: 0;
   border: none;
   border-top: #666 2px solid;
   border-left: #666 2px solid;
@@ -95,3 +96,9 @@ form input:focus {
   outline: none;
 }
 
+@media (max-width: 460px){
+  main{
+    width: 310px;
+    padding: 16px;
+  }
+}
